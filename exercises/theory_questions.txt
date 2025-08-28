@@ -1,0 +1,40 @@
+
+## Theory 0
+
+a) What are the main components of Snowflake's architecture?
+
+b) Explain the role of the storage layer in Snowflake.
+
+c) What is the purpose of the compute layer in Snowflake?
+
+d) How does the cloud services layer enhance the functionality of Snowflake?
+
+e) What is a virtual warehouse in Snowflake, and how does it differ from a traditional data warehouse?
+
+f) When are the cases you would want to scale up versus scaling out in terms of virtual warehouses and compute resources.
+
+g) How does Snowflake's pricing model differ from traditional on-premise data warehousing solutions?
+
+h) What is the difference between pay-as-you-go and upfront storage, and when you should you choose one over the other?
+
+i) Explain the concept of Time Travel and Fail-safe in Snowflake and its use cases
+
+## Theory 1
+
+a) Why is the principal of least privilege important in a company?
+
+b) Explain the role of dlt in managing data pipelines.
+
+c) What is a data connector and why is it important in data integration?
+
+d) What are the three different write dispositions in dlt?
+
+e) What is ELT and how does it differ from ETL?
+
+f) Discuss the advantages of performing data transformations after loading the data.
+
+g) What is the purpose of roles in Snowflake?
+
+h) Explain the difference between USAGE and OWNERSHIP privileges.
+
+i) What information is required to create a user in Snowflake?
