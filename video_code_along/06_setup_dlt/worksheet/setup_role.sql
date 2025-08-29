@@ -4,7 +4,7 @@ CREATE ROLE IF NOT EXISTS movies_dlt_role;
 -- grant role to user
 USE ROLE SECURITYADMIN;
 
-GRANT ROLE movies_dlt_role TO USER extract_loader;
+GRANT ROLE movies_dlt_role TO USER extract_loader_06;
 
 -- grant privileges to role
 GRANT USAGE ON WAREHOUSE dev_wh TO ROLE movies_dlt_role;
@@ -18,7 +18,7 @@ GRANT INSERT, UPDATE, DELETE ON FUTURE TABLES IN SCHEMA movies.staging TO ROLE m
 SHOW GRANTS ON SCHEMA movies.staging;
 SHOW FUTURE GRANTS IN SCHEMA movies.staging;
 SHOW GRANTS TO ROLE movies_dlt_role;
-SHOW GRANTS TO USER extract_loader;
+SHOW GRANTS TO USER extract_loader_06;
 
 -- create reader role
 USE ROLE useradmin;

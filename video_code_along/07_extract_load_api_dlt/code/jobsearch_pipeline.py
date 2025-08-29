@@ -42,3 +42,4 @@ if __name__ == "__main__":
     table_name = "data_field_job_ads"
 
     run_pipeline(query, table_name)
+    
