@@ -208,4 +208,9 @@ __marimo__/
 
 # DLT
 **/.dlt/
-.dlt/
+
+**/setup_user.sql
+**/setup/user_role.sql
+
+# ignore secrets, virtual environments and typical python compilation artifacts
+
