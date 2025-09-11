@@ -1,0 +1,7 @@
+sources:
+  - name: job_ads
+    database: JOB_ADS        # lägg till detta för tydlighet
+    schema: STAGING          # måste matcha exakt med SHOW SCHEMAS i Snowflake
+    tables:
+      - name: stg_ads
+        identifier: technical_field_job_ads
