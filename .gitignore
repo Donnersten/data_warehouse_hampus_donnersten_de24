@@ -214,3 +214,8 @@ __marimo__/
 
 # ignore secrets, virtual environments and typical python compilation artifacts
 
+# Ignore DuckDB 
+*.duckdb
+*.db
+
+*.dbt_packages
