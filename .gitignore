@@ -218,4 +218,17 @@ __marimo__/
 *.duckdb
 *.db
 
-*.dbt_packages
+# dagster
+**/.tmp*/
+
+# duckdb
+*.duckdb
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+**/dbt_packages
+# dlt
+.dlt

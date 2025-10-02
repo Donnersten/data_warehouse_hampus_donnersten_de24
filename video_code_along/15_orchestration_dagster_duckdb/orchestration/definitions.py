@@ -21,7 +21,7 @@ dlt_resource = DagsterDltResource()
 
 # Create DLT assets
 @dlt_assets(
-    dlt_source = jobads_source,
+    dlt_source = jobads_source(),
     dlt_pipeline = dlt.pipeline(
         pipeline_name="jobsearch",
         dataset_name="staging",
